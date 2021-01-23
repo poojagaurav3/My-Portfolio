@@ -6,21 +6,31 @@
     <link rel="stylesheet" href="resume-style.css">
     <link rel="stylesheet" href="education-style.css">
     <link rel="stylesheet" href="project-style.css">
+    <!-- <link rel="stylesheet" href="all.min.css"> -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <!--------------------Section 1--------------->
     <section id="section1">
         <div class="content-box">
-            <div class="userbox1">      
+            <div class="userbox1"> 
+                 
                 <!---------Navbar--------------->
                 <nav class="fixed">
+                    <center class="dp">
+                        <img src="./img/dp1.jpg" class="home-img"/>
+                        <h2>Pooja Gaurav</h2>
+                    </center> 
                     <ul class="menu">
-                        <li><a href="#section1">Home</a></li>
-                        <li><a href="#section2">Experience</a></li> 
-                        <li><a href="#section3">Education</a></li>
-                        <li><a href="#section4">Projects</a></li>
-                        <li><a href="#section5">Contact Me</a></li>
+                        <li class = "item"><a href="#section1">Home</a></li>
+                        <li ><a href="#section2">Experience</a></li> 
+                        <li ><a href="#section3">Education</a></li>
+                        <li ><a href="#section4">Projects</a></li>
+                        <li ><a href="#section5">Contact Me</a></li>
                     </ul>
                 </nav>
             </div>
@@ -33,8 +43,8 @@
                             <p>Graduate Student</p>
                             <p>Currently pursuing masters in Computer Science with specialization in Database and Artificial Intelligence and have work experience of 5 years in software domain. I am passionate about innovation that leads to impact.</p>
                             <!-----buttons---->
-                            <a href="#" class="btn-home">Contact Me</a>
-                            <a href="#" class="btn-home">Resume</a>
+                            <a href="Pooja_Gaurav_Resume.pdf" class="btn-home" target="blank"><i class="fa fa-download"></i>Resume</a>
+                            <a href="#section5" class="btn-home">Contact me</a>
                         </div>
                     </div>    
                 </div>
@@ -64,7 +74,7 @@
                                     <p class="description">
                                         During my masters, I interned at FedEx Services in the QA-Prod Team. I designed a CI/CD pipeline to track the testing activities using Python, Jenkins and Groovy scripts. I also designed a dashboard to analyse the Project flow. 
                                     </p>
-                                    <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                                    <div class="timeline-icon"></div>
                                 </a>
                             </div>
                             <div class="timeline">
@@ -73,9 +83,9 @@
                                     <h3 class="title">Oracle Private Ltd.</h3>
                                     <strong>Quality Assurance Engineer</strong>
                                     <p class="description">
-                                        I was employed at Oracle India Pvt Ltd as a Quality Assurance Engineer in Bangalore. I was responsible for supporting the implementation of testing framework and designing support libraries for automation. I also coordinated and organised testing activities and participated in automation tetsing of CRM project. 
+                                        Prior to my masters I was employed at Oracle India Pvt Ltd in Bangalore. I was responsible for supporting the implementation of testing framework and designing support libraries for automation. I also coordinated and organised testing activities and participated in automation testing.
                                     </p>
-                                    <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                                    <div class="timeline-icon"></i></div>
                                 </a>
                             </div>
                             <div class="timeline">
@@ -84,9 +94,9 @@
                                     <h3 class="title">LAVA International Ltd.</h3>
                                     <strong>Senior Quality Engineer</strong>
                                     <p class="description">
-                                        After my bachelors, I joined R&D branch of LAVA International, a leading handset manufacturer in India. I worked on multimedia drivers and interacted with clients like Mediatek, Qualcomm and Sony. Later I also worked on an application  called Gametsore, I developed a push notification system in python and also perfomed data analysis on user behaviour. 
+                                        After my bachelors, I joined R&D branch of LAVA International, a leading handset manufacturer in India. I worked on multimedia drivers and interacted with clients like Mediatek, Qualcomm and Sony. Later I switched team and developed a push notification system for Gamestore app and also perfomed data analysis on user behaviour. 
                                     </p>
-                                    <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                                    <div class="timeline-icon"></div>
                                 </a>
                             </div>
                         </div>
@@ -96,7 +106,7 @@
         </div>
     </section>
     <!-------------------------------Section3 Education---------------------->
-    <section class="section3">
+    <section id="section3">
         <div class="content-box">
             <div class="userbox1">
                 </div>
@@ -131,93 +141,105 @@
         </div>
     </section>
     <!-----------------------------Section4 Projects------------------------------------>
-    <section id="section4">
-        <div class="content-box">
-            <div class="userbox1">      
-                <!---------Navbar--------------->
-            </div>
-            <div class="userbox2">
-                <h2 class= "heading">Recent Project</h2>
-                <div class= "scr1">
-                    <!-- <img src="img/scr2.png" height="400px"> -->
-
-                <div class="grid">
-                  <div class="grid-item">
-                    <div class="card">
-                      <img class="card-img" src="./img/scr2.png" alt="Rome" />
-                      <div class="card-content">
-                        <h1 class="card-header">Sorting Visualization</h1>
-                        <p class="card-text">
-                          This visualization is intented to show how different sorting algorithm operates. The layout gives options to generate a random array  and inlcudes famous algorithms like quick, merge, bubble and heap sorting. 
-                        </p>
-                        <button class="card-btn">View More <span>&rarr;</span></button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="grid-item">
-                    <div class="card">
-                      <img
-                        class="card-img"
-                        src="./img/scr1.png"
-                        alt="Grand Canyon"
-                      />
-                      <div class="card-content">
-                        <h1 class="card-header">Facial Expression Detection</h1>
-                        <p class="card-text">
-                          This project aims at detecting the facial expression using Convolutional Neural Network. The project is designed in python and uses numpy, pandas and scikit libraries. The dataset used is from COCO and CFAR13.
-                          <strong>Convolution network</strong>.
-                        </p>
-                        <button class="card-btn">View More <span>&rarr;</span></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                </div>
-               
-                <a href="#" class="btn-home">View</a>
-                
-            <!--  -->
-            </div>
-            
-        </div>
-    </section>
-
-    <!--------------------------------Contact Me---------------------------->
-    <section class = "section5">
+    
+     <section id="section4">
         <div class="content-box">
             <div class="userbox1">
                 </div>
             <div class="userbox2">
-            <div id="contact">
+                <h2 class="heading">Projects</h2>
+                
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <!------------------------------cards------->
+                        <div class="col">
+                            <div class="card">
+                              <img src="./img/scr2.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Sorting Visualization</h5>
+                                <p class="card-text">This visualization is intented to show how different sorting algorithm operates. The layout gives options to generate a random array  and inlcudes famous algorithms like quick, merge, bubble and heap sorting.</p>
+                                <a href="./sorting.html" target="_blank"><button class="card-btn">View<span>&rarr;</span></button></a>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col">
+                            <div class="card">
+                              <img src="./img/ml_prj.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Facial Expression Detection</h5>
+                                <p class="card-text">This project aims at detecting the facial expression using Convolutional Neural Network. The project is designed in python and uses numpy, pandas and scikit libraries. The dataset used is from COCO and CFAR13.</p>
+                                <a href = "https://github.com/poojagaurav3/Emotion-Recognition-using-CNN" target="_blank"><button class="card-btn">View><span>&rarr;</span></button></a>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col">
+                            <div class="card">
+                              <img src="./img/bg2.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">SP Share</h5>
+                                <p class="card-text"> SP Share is a website that allows registered users to create profiles, upload photos and video. Ans also post comments on the content of their group member.</p>
+                                <button class="card-btn">View<span>&rarr;</span></button>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col">
+                            <div class="card">
+                              <img src="./img/bg3.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    
+                                </p>
+                                <button class="card-btn">View<span>&rarr;</span></button>
+                              </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------------------------Contact Me---------------------------->
+    <section id = "section5">
+        <div class="content-box">
+            <div class="userbox1">
+                </div>
+            <div class="userbox2">
+            <!-- <div id="contact"> -->
+            <div class="sec1">
                 <h2 class= "heading">Contact</h2>
                 <p class="lead">
                     “The goal of education is learning; the goal of training is performance. ”<br><br> -Frank Bell
                 </p>
-                <br><br><br><hr><br>
-                <div class="contact-info">
-                    <div class="col-md-6">
-                        <ul class="no-bullets">
-                            <li>
-                                <a href="https://www.linkedin.com/in/pooja-gaurav-9aa87967/" target="_blank">
-                                    <span class="icon icon-linkedin"></span>
-                                    http://linkedin.nl/in/poojagaurav/                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="no-bullets">
-                            <li>
-                                <a href="mailto:ln.tremegnavlacsap@lacsap">
-                                    <span class="icon icon-email"></span>
-                                    <span>poojagaurav38@gmail.com</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
+            <hr><br>
+            <div class="sec2">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p><a href="https://www.linkedin.com/in/pooja-gaurav-9aa87967/" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                            http://linkedin.nl/in/poojagaurav/</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><a href="mailto:ln.tremegnavlacsap@lacsap" target="_blank"> 
+                            <i class="fa fa-envelope"></i>
+                            poojagaurav38@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                        <a href="https://github.com/poojagaurav3" target="_blank">
+                            <i class="fa fa-github"></i>
+                            github link</a></p>
+                    </div>
+
+                </div>
+                <a href = "Pooja_Gaurav_Resume.pdf" target="blank"><button type="button"  class="btn-contact"><i class="fa fa-download"></i>Resume</button></a>
+                
+            </div>
+            <div class = sec3>
+            </div>
+            <!-- </div> -->
             <br><hr>
             </div> 
         </div>      
