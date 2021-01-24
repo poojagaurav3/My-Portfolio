@@ -18,7 +18,11 @@ a {
 }
 
 nav {
+<<<<<<< HEAD
 	margin-top: 20px;
+=======
+	margin-top: 10px;
+>>>>>>> 8df7a9e986ec9720e2a870f5c299b74254f2e154
 	width:18%;
 	display: block;
 	justify-content: space-around;
@@ -65,14 +69,23 @@ section {
 	min-height: 100vh;
 }
 .home-img{
+<<<<<<< HEAD
 	height: 60%;
 	border-radius:50%;
 	width:60%;
+=======
+	height: 20vh;
+	border-radius:50%;
+	width:20vh;
+>>>>>>> 8df7a9e986ec9720e2a870f5c299b74254f2e154
 	top:10%;
 	left:50%;
     border:1px solid @color-1st;
     box-shadow:0 0 0 2px #a2999c;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+>>>>>>> 8df7a9e986ec9720e2a870f5c299b74254f2e154
 }
 
 .dp{
