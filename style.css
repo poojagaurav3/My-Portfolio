@@ -19,14 +19,13 @@ a {
 
 nav {
 	margin-top: 20px;
-	margin-top: 10px;
 	width:18%;
 	display: block;
 	justify-content: space-around;
 	position: fixed;
 	text-align: right;
 	font-family: arial;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: bold;
 }
 
@@ -64,23 +63,25 @@ section {
 	min-height: 100vh;
 }
 .home-img{
-	height: 60%;
+	max-height: 100%;
 	border-radius:50%;
-	width:60%;
-	height: 20vh;
-	border-radius:50%;
-	width:20vh;
+	max-width:100%;
 	top:10%;
-	left:50%;
     border:1px solid @color-1st;
     box-shadow:0 0 0 2px #a2999c;
-    overflow: hidden;
+    object-fit: contain;
+    
 }
 
 .dp{
-	left:50%;
+	height: 60%;
+	width:60%;
 	padding:2em 0 1em 0;
 	text-align:center;
+	position: relative;
+	display:block;
+	margin: 0 auto;
+
 	}
 
 .dp h2{
