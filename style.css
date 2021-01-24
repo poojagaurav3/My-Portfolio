@@ -145,11 +145,11 @@ section {
 	background-color: #31273e;
 }
 
-.fixed{
+.fixed {
 	position:fixed;
 	z-index: 1;
 }
-.userbox2{
+.userbox2 {
 	width: 80%;
 	min-height: 100vh;
 	display:block;
