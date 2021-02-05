@@ -1,0 +1,21 @@
+.blog-title {
+    margin: 2rem;
+}
+
+.blog-content {
+    padding: 1rem 2rem 0 2rem;
+}
+
+.blog-index {
+    margin-left: 1rem;
+}
+
+.blog-image {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#agent-env {
+    max-width: 50% !important;
+    margin: 0 auto;
+}
