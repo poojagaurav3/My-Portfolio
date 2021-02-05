@@ -1,5 +1,6 @@
 .blog-title {
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .blog-content {
@@ -18,4 +19,8 @@
 #agent-env {
     max-width: 50% !important;
     margin: 0 auto;
+}
+
+.citation {
+	margin-left: 2rem;
 }
