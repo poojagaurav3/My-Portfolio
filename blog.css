@@ -16,11 +16,13 @@
 .blog-image {
     margin-top: 1rem;
     margin-bottom: 1rem;
+
 }
 
 #agent-env {
     max-width: 50% !important;
-    margin: 0 auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .citation {
