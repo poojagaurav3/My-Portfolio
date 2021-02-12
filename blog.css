@@ -5,6 +5,8 @@
 
 .blog-content {
     padding: 1rem 2rem 0 2rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .blog-index {
@@ -23,4 +25,13 @@
 
 .citation {
 	margin-left: 2rem;
+}
+
+h5 {
+	margin-top: 1.3rem !important;
+}
+
+.bullet-list {
+	list-style: disc !important;
+    margin-left: 2rem;
 }

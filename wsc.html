@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pooja Gaurav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="section1">
+        <div class="content-box">
+            <div class="userbox1"> 
+                <nav class="fixed">
+                    <center class="dp">
+                        <img src="./img/dp1.jpg" class="home-img"/>
+                        <h2>Pooja Gaurav</h2>
+                    </center> 
+                    <ul class="menu">
+                        <li class = "item"><a href="index.html#section1">Home</a></li>
+                        <li ><a href="index.html#section2">Experience</a></li> 
+                        <li ><a href="index.html#section3">Education</a></li>
+                        <li ><a href="index.html#section4">Projects</a></li>
+                        <li ><a href="blog.html">Blog</a></li>
+                        <li ><a href="index.html#section5">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="userbox2">
+                <div class="container">
+                    <h2 class="blog-title">Paper Review: Winograd Schema Challange</h2>
+                    <small class="text-muted citation">Levesque, H., Davis, E., & Morgenstern, L. (2012, May). The winograd schema challenge.</small><br/>
+                    <small class="text-muted citation">In Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning.</small>
+                    <div class="row justify-content-center blog-content">
+                        <div class="col-10">
+                            <h5>Introduction</h5>
+                            <p>Winograd schema challenge was proposed by Hector Levesque, as an improvement to the Turing test. Like Turing test, it also measures machine intelligence and is based on the understanding of natural language. The test mainly consists of series of questions, with pair of sentences that differ in only one or two words with ambiguous pronouns. And based on the structure of the sentence and proper reasoning, the machine has to guess the correct answer. In order to predict the accurate answer, the machine is believed to require human level intelligence.</p>
+
+                            <h5>Story of Origin</h5>
+                            <p>As we know, the famous Turing Test was indented to detect whether a machine was capable of human-level intelligence by imitating a human being. However, it was criticized by many for its structure, as in order to succeed the machine has to fool the interrogator, which is a form of deception. And therefore, it was considered as inadequate of judging a machine’s intelligence.</p>
+
+                            <h5>Challange highlights</h5>
+                            <p>Though, the foundation of Winograd schema is based on Turing’s idea of intelligent behavior, the test is basically a binary decision problem that follows a definite pattern. The test requires reasoning and knowledge of the textual context of the questions. The schema basically consists of following features:</p>
+                            <ul class="bullet-list">
+                                <li>One of the entities mentioned in question is referenced by pronoun.</li>
+                                <li>The question is regarding determining the referent of the pronoun.</li>
+                                <li>A particular word mentioned in the sentence when replaced with alternate word changes the answer.</li>
+                            </ul>
+
+                            <p>As seen in the famous example given by Terry Winograd, after whom the test is named:</p>
+                            <p><span><em>“The city councilmen refused the demonstrators a permit because they [feared/advocated] violence.”</em></span><br/>
+                            <span><em>Question: Who feared violence?</em></span><br/>
+                            <span><em>Answer 0: the town councilmen</em></span><br/>
+                            <span><em>Answer 1: the angry demonstrators</em></span></p>
+
+                            <p>We have to choose between the “councilmen” and the “demonstrators”. But the trick is if the instance refers to “feared”, then “they'' presumably refers to the city council; if it is “advocated” then “they'' presumably refers to the demonstrators.
+                            </p>
+
+                            <h5>Conclusive thoughts</h5>
+                            <p>If I compare WS challenge with Turing test, I prefer the clarity and simplicity of Winograd schema. The test sticks to a definite structure and provide binary options to choose from.  The most interesting feature is, that the test does not even requires an expert to judge the performance of the person/machine undertaking the test. Although, the only drawback with this test is the dataset to be used for preparing the questions, which have to be designed a certain way to be applied reasoning. But I wonder if this test is an adequate measure of a machine’s intelligence, as it only captures the natural language processing understanding. The knowledge required to pass the test is only in context of the sentences, if one knows the meaning of words and have sound knowledge of the domain of questions, it is not a difficult task to crack the challenge.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
