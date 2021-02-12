@@ -35,3 +35,16 @@ h5 {
 	list-style: disc !important;
     margin-left: 2rem;
 }
+.blog-btn {
+    color: #31273e !important;
+    background-color: #eae6ef !important;
+    float:right;
+    border-color: #31273e !important;
+
+}
+.title-pr {
+    background-color: #eae6ef !important;
+}
+.card {
+    margin-bottom: 1rem !important;
+}
