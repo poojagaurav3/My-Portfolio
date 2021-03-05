@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pooja Gaurav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="section1">
+        <div class="content-box">
+            <div class="userbox1"> 
+                <nav class="fixed">
+                    <center class="dp">
+                        <img src="./img/dp1.jpg" class="home-img"/>
+                        <h2>Pooja Gaurav</h2>
+                    </center> 
+                    <ul class="menu">
+                        <li class = "item"><a href="index.html#section1">Home</a></li>
+                        <li ><a href="index.html#section2">Experience</a></li> 
+                        <li ><a href="index.html#section3">Education</a></li>
+                        <li ><a href="index.html#section4">Projects</a></li>
+                        <li ><a href="blog.html">Blog</a></li>
+                        <li ><a href="index.html#section5">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="userbox2">
+                <div class="container">
+                    <h2 class="blog-title">Paper Review: Grounded Language Learning in a Simulated 3D World</h2>
+                    <small class="text-muted citation">Hermann, K. M., Hill, F., Green, S., Wang, F., Faulkner, R., Soyer, H., ... & Blunsom, P. (2017). Grounded language learning in a simulated 3d world. arXiv preprint arXiv:1706.06551.</small><br/>
+                    <div class="row justify-content-center blog-content">
+                        <div class="col-10">
+                            <h5>Introduction</h5>
+                            <p>This paper explores the idea of fast mapping on a multi-model, in a simulated 3D environment using reinforcement learning. It presents a different approach from earlier attempts made in the field of linguistic learning, which were either hard coded or rule based and did not leave much room for improvising learning. Whereas this paper shows the model which is able to acquire new words when trained with reinforcement learning and textual instructions. The agent is assigned with tasks to find and pickup objects in the setting, using visual input and is driven by reward.</p>
+
+                            <h5>Agent Design and Experiments</h5>
+                            <p>The environment comprises of two connected rooms with different set of objects. In this simulated 3D environment, the agent perceives it through continuous visual input and the textual instruction and is expected to explore the surrounding and objects, while simultaneously learning the meaning of new words.</p>
+                            <p style="text-align:center;">
+                            <img alt="" src="./img/model5.png" class="img-fluid blog-image center" height="400" width="300"/></p>
+
+                            <p>TThe agent is designed as a neural network consisting of four inter-connected modules. The visual model is encoded by vision module V and instructions are encoded by language module L. The mixing module M determines how to combine both signals before passing them to LSTM action module A.</p>
+
+                            <h6>Experiments Result</h6>
+                            <ul class="bullet-list">
+                                <li>The learning rate is faster when model has prior knowledge of words.</li>
+                                <li>Existing semantic knowledge accelerates the acquisition of new words.</li>
+                                <li>Curriculum training is required to solve complex task</li>
+                            </ul><br>
+                            
+                            <h5>Conclusion</h5><br>
+                            <h6>Strong Points</h6>
+                            <p>The author tried different setup and environment and provided a picture of what the model learned in these different settings. The different experiments performed on the agent exhibits its ability to learn and decipher multiple words and apply this knowledge on interpreting unfamiliar objects and how it reuses these concepts to acquire new vocabulary. It gives a glimpse into how humans acquire new language and uses their semantic knowledge to form a relation between different concepts.
+                            </p>
+
+                            <h6>Weak Points</h6>
+                            <p>Though the idea of relating natural language with physical world is fascinating but the tasks designed for the agent are very simple. The task to find and pick an object on the basis of instruction is quite simple with limited language capabilities. The environment also uses very few objects and makes the experiment slightly underwhelming. But these limitations leave possibility for future implementation of more complex tasks in sophisticated environment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
