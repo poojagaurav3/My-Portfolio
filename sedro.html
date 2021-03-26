@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pooja Gaurav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="section1">
+        <div class="content-box">
+            <div class="userbox1"> 
+                <nav class="fixed">
+                    <center class="dp">
+                        <img src="./img/dp1.jpg" class="home-img"/>
+                        <h2>Pooja Gaurav</h2>
+                    </center> 
+                    <ul class="menu">
+                        <li class = "item"><a href="index.html#section1">Home</a></li>
+                        <li ><a href="index.html#section2">Experience</a></li> 
+                        <li ><a href="index.html#section3">Education</a></li>
+                        <li ><a href="index.html#section4">Projects</a></li>
+                        <li ><a href="blog.html">Blog</a></li>
+                        <li ><a href="index.html#section5">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="userbox2">
+                <div class="container">
+                    <h2 class="blog-title">Paper Review: SEDRO - A Simulated Environment for Developmental Robotics</h2>
+                    <small class="text-muted citation">Pothula, A., Mondol, M. A. R., Narasimhan, S., Islam, S. M., & Park, D. (2020, October). SEDRo: A Simulated Environment for Developmental Robotics.</small><br/>
+                    <small class="text-muted citation">In 2020 Joint IEEE 10th International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob) (pp. 1-2). IEEE.</small>
+                    <div class="row justify-content-center blog-content">
+                        <div class="col-10">
+                            <h5>Introduction</h5>
+                            <p>The phenomenal development in AI and reinforcement learning, accompanied with the advancement in robotics has recently led to much research in the field of robotics development, which is driven by observing the child behavioral development. Many researchers are exploring the option of training the model in more realistic environment. This paper presents such an environment, which provides varied human experiences which are ideal for a baby, right from the age when it is a fetus to when it is 12-month-old.</p>
+
+                            <h5>Model Design</h5>
+                            <p>In order to build a human robot, we will require massive amount of data to train the model for multiple tasks. So, the better approach is to focus on building a childlike robot. But all the earlier approaches to develop such model had some issues, such as:</p>
+                            <ul class="bullet-list">
+                                <li>It targeted single skill and ended up making overfitted model.</li>
+                                <li>The training data used was refined and lacked diverse data.</li>
+                                <li>The model was mainly trained using reward system.</li>
+                            </ul><br>
+                            <p style="text-align:center;">
+                            <img alt="" src="./img/sed.png" class="img-fluid blog-image center" height="400" width="300"/></p>
+                            
+                            <p>To overcome these limitations this paper presents SEDRO, where the learning agent is trained by interactions with other characters. And the model is designed by focusing on the early stage of human development when not much verbal interaction takes place. So it is easier to design the training environment and with SEDRO the models progress can be evaluated by comparing with infants.</p>
+
+                            <h6>Strong Points</h6>
+                            <p>The environment proposed by the authors is very similar to a real environment for development of human infant. The strong point of this paper is that the model is trained without using any external reward system. I agree with the author’s idea of training the model by creating an interactive environment, where the agent can interact with the caregiver and objects and learns gradually. 
+                            </p>
+
+                            <h6>Weak Points</h6>
+                            <p>Though the idea of the setup sounds interesting, but the paper does not provide enough supporting data for training the model. In order to train the agent like a real baby, different scenarios and a large amount of diverse data is required. The authors can include more information regarding the different recorded scenarios and how that will be maintained for different SEDRO versions and for different age group of agents.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
