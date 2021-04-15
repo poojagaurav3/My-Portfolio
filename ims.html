@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pooja Gaurav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="section1">
+        <div class="content-box">
+            <div class="userbox1"> 
+                <nav class="fixed">
+                    <center class="dp">
+                        <img src="./img/dp1.jpg" class="home-img"/>
+                        <h2>Pooja Gaurav</h2>
+                    </center> 
+                    <ul class="menu">
+                        <li class = "item"><a href="index.html#section1">Home</a></li>
+                        <li ><a href="index.html#section2">Experience</a></li> 
+                        <li ><a href="index.html#section3">Education</a></li>
+                        <li ><a href="index.html#section4">Projects</a></li>
+                        <li ><a href="blog.html">Blog</a></li>
+                        <li ><a href="index.html#section5">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="userbox2">
+                <div class="container">
+                    <h2 class="blog-title">Paper Review: SEDRO - Intrinsic Motivation Systems for Autonomous Mental Development</h2>
+                    <small class="text-muted citation">Oudeyer, P. Y., Kaplan, F., & Hafner, V. V. (2007). Intrinsic motivation systems for autonomous mental development.</small><br/>
+                    <small class="text-muted citation">IEEE transactions on evolutionary computation, 11(2), 265-286.</small>
+                    <div class="row justify-content-center blog-content">
+                        <div class="col-10">
+                            <h5>Introduction</h5>
+                            <p>Intrinsic Motivation refers to engagement in a behavior that is inherently satisfying or enjoyable without any intended outcome. Humans undergo same development sequence, we grow and learn autonomously in open-ended manner, without the aid of external reward system. So, is there a possibility to develop a machine with such intrinsic motivation system, this paper is based on this idea. The author presents an IM system which drives the robot toward actions which can maximize its learning. And the set-up is motivated from the infant development mechanism which is - autonomous and progressive.</p>
+
+                            <h5>Motivation</h5>
+                            <p>It is believed that Intrinsic motivation drives the acquisition of skills in the absence of extrinsic motivations. So, in order to device such a machine, we should capacitate it with a system for task independent learning. As proposed by White, exploratory activities are a source of reward in themselves and is triggered by novelty, surprise and complexity. The required system should evaluate the degree of ‘novelty’, ‘surprise’ and ‘complexity’ of situations and maximize associated reward.</p>
+                            
+                            <h5>Intelligent Adaptive Curiosity (IAC)</h5>
+                            <p>The system designed to achieve such behavior is called IAC. This mechanism has a dynamic cognitive variable: learning progress, which when maximized, pushes the robot to novel situations. The main idea of this system is that it stores experiences in the form of vector exemplars. And each region has a learning machine called expert, which makes prediction based on any action and the error in prediction is used to evaluate the learning progress of the machine. This system is formulated on reinforcement learning which allow the robot to maximize its future related rewards.</p>
+
+                            <h5>Experiment Analysis</h5>
+                            <p>This setup includes a robot with two wheels which emits sound with particular frequency. Also, there a toy in the room that can also move. The toy moves randomly if frequency of sound by the robot is f1, it stops moving if sound is f2 frequency and if the frequency is f3 the toy jumps into the robot. Based on the behavior of the robot, we found that the robot consistently avoids situation in which it learns nothing, it begins by easy scenarios and then autonomously moves to sensorimotor situations of higher complexity.</p>
+
+                            <h5>Strong Points</h5>
+                            <p>Both experiments designed to measure the performed of the IAC system, provide detailed view of the model’s development. The systematic sequencing of the task’s as per increasing complexity, drives the model to self-learn and is very similar to how a human infant actually learns overtime, right from gazing at the object to biting or bashing the toy. It clearly shows the models progressive learning. 
+                            </p>
+
+                            <h5>Weak Points</h5>
+                            <p>The model does a remarkable job in learning and prioritizing tasks. But the environment it is put in is simple and includes limited scenarios. When the set will involve more complex situations that are correlated with other scenarios and the actions performed by the robot invoke other actions with lower learning. In such cases, it will be difficult for the system to prioritize the task and estimate the learning or intrinsic reward.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
